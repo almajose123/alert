@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
                 builder.setMessage("Do you want to close this application ?")
                         .setCancelable(false)
-                        .setPositiveButton("Yesss", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("Yessssssss", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 finish();
                                 Toast.makeText(getApplicationContext(),"you closed the application",
